@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  
+    /* Navigation */
+    
+    #main-nav {
+      position: static;
+      top: 0;
+      z-index: 2;
+    }
+
+    .container {
+      padding: 0 1rem;
+    }
+    
+    #main-nav .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 0.5rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    #main-nav .container ul {
+      padding: 0rem;
+    }
+
+    #main-nav .container h1 {
+      padding: 0rem;
+    }
+
+    #main-nav .container ul li a {
+      padding: 0.25rem;
+      margin: 0 0.25rem;
+    }
+
+
+    #picture {
+      img {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+
+}
